@@ -1,3 +1,5 @@
 
 * How do I find the type of variable, especially in Vim?
 * How do I print string without double quotes?
+  Without %A pattern.
+* Now to import a module?
