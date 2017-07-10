@@ -1,5 +1,6 @@
 module Examples
 
+
 // Character data
 
 let string = "Hello World"
@@ -27,6 +28,31 @@ let unsignedByte = 127y
 let unsignedByteNegative = -128y
 let signedByteMin = 0uy
 let signedByteMax = 255uy
+
+//   16 byte integers
+let integer16b = 34s
+let unsignedInteger16b = 34us
+
+//   32 byte integers
+let integer32b = 34l
+let unsignedInteger32b = 34ul
+
+//   native integers
+let nativeInteger = 34n 
+let unsignedNativeInteger = 34un
+
+//   64 byte integer
+let integer64b = 34L
+let unsignedInteger64b = 34UL
+
+//   Floating-point
+let singlePrecision = 3.0f
+let doublePrecision = 3.0
+
+//   Big
+let bigInteger = 34I
+// let bigDecimal = 34N !!! this doesn't work, NumericLiteralN required !!!
+
 
 let main() =
   printfn "string: %A" string
