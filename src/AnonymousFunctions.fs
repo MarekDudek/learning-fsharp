@@ -36,3 +36,18 @@ let SafeUpperCase(s: string) =
 
 printfn "something in upper-case is %s" (SafeUpperCase "something")
 
+
+let printMessages() =
+
+    let message = "Important"
+    printfn "%s" message
+    
+    let innerFun() =
+        let message = "Very Important"
+        printfn "%s" message
+
+    innerFun()
+    printfn "%s" message
+    
+printMessages()
+
